@@ -8,7 +8,7 @@ const defaultConfig = {
   secretPath: '/run/secrets/',
   servicebus: {
     prefetch: 10,
-    queuePrefix: 'todolist-model-service',
+    queuePrefix: 'add-todo-api',
     redis: {
       host: process.env.REDIS_HOST || 'localhost',
       port: process.env.REDIS_PORT || '6379',
@@ -25,7 +25,7 @@ const defaultConfig = {
     mongo: {
       host: process.env.MONGODB_HOST || "localhost",
       port: process.env.MONGODB_PORT || "27017",
-      database: process.env.MONGODB_DATABASE || "todolist-model-service",
+      database: process.env.MONGODB_DATABASE || "add-todo-api",
       username: process.env.MONGODB_USERNAME,
       password: process.env.MONGODB_PASSWORD
     }

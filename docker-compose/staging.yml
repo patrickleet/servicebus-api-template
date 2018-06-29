@@ -7,7 +7,7 @@ networks:
 services:
 
   staging-deps:
-    image: todolist-model-service
+    image: add-todo-api
     environment:
       - NODE_ENV=production
       - PORT=3000

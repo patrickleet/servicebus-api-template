@@ -4,7 +4,7 @@ pipeline {
     }
     environment {
       ORG               = 'patrickleet'
-      APP_NAME          = 'todolist-model-service'
+      APP_NAME          = 'add-todo-api'
       CHARTMUSEUM_CREDS = credentials('jenkins-x-chartmuseum')
     }
     stages {

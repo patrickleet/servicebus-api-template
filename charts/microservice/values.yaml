@@ -7,7 +7,7 @@ image:
   tag: dev
   pullPolicy: IfNotPresent
 service:
-  name: todolist-model-service
+  name: add-todo-api
   type: ClusterIP
   externalPort: 80
   internalPort: 3000
@@ -45,24 +45,3 @@ servicebus:
     host: hopping-toad-redis-master.servicebus.svc.cluster.local
     port: 6379
     password: apassword
-
-mongodb:
-  ## MongoDB custom user and database
-  ## ref: https://github.com/bitnami/bitnami-docker-mongodb/blob/master/README.md#creating-a-user-and-database-on-first-run
-  ##
-  mongodbHost: sourced-db-mongodb.todolist.svc.cluster.local
-  mongodbUsername: username
-  mongodbPassword: apassword
-  mongodbDatabase: sourced
-
-  ## Enable persistence using Persistent Volume Claims
-  ## ref: http://kubernetes.io/docs/user-guide/persistent-volumes/
-  ##
-  persistence:
-    enabled: true
-    ## If defined, volume.beta.kubernetes.io/storage-class: <storageClass>
-    ## Default: volume.alpha.kubernetes.io/storage-class: default
-    ##
-    # storageClass:
-    accessMode: ReadWriteOnce
-    size: 8Gi

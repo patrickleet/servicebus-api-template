@@ -9,11 +9,11 @@ setup:
 	make restore-db
 
 docker-build:
-	docker build -t todolist-model-service .
+	docker build -t add-todo-api .
 
 ci:
 	rm -rf node_modules
-	sleep 5
+	sleep 10
 	COMPOSE_FILE=./docker-compose/builder.yml \
 	PORT=3000 \
 		make	docker-build \

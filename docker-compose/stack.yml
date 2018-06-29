@@ -8,11 +8,10 @@ networks:
 services:
 
   service:
-    image: patrickleet/list:${TAG}
+    image: patrickleet/add-todo-api:${TAG}
     environment:
       - RABBITMQ_HOST=servicebus_rabbitmq
       - REDIS_HOST=servicebus_redis
-      - MONGODB_HOST=mongo
       - NODE_ENV=production
     networks:
       - default
