@@ -24,7 +24,7 @@
     "joi": "13.7.0",
     "llog": "0.1.1",
     "pino": "4.17.3",
-    "servicebus-bus-common": "1.2.2",
+    "servicebus-bus-common": "1.2.4",
     "servicebus-register-handlers": "0.1.12",
     "sourced": "0.1.5",
     "sourced-queued-repo": "1.0.3",
