@@ -25,13 +25,13 @@
     "llog": "0.1.1",
     "pino": "4.17.3",
     "servicebus-bus-common": "1.2.4",
-    "servicebus-register-handlers": "0.1.12",
+    "servicebus-register-handlers": "0.2.2",
     "sourced": "0.1.5",
     "sourced-queued-repo": "1.0.3",
     "sourced-repo-mongo": "0.4.2"
   },
   "devDependencies": {
-    "babel-jest": "23.6.0",
+    "babel-jest": "23.2.0",
     "babel-plugin-transform-runtime": "6.23.0",
     "babel-preset-env": "1.7.0",
     "debug": "3.2.6",
@@ -42,7 +42,7 @@
     "eslint-plugin-promise": "3.8.0",
     "eslint-plugin-standard": "3.1.0",
     "husky": "0.14.3",
-    "jest": "23.6.0",
+    "jest": "23.2.0",
     "json-stream-formatter": "0.0.9",
     "r2": "2.0.1",
     "readable-id-mjs": "1.0.0"
