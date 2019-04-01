@@ -21,7 +21,7 @@
     "cconfig": "2.0.2",
     "errortrap": "1.0.2",
     "express-api-common": "4.1.4",
-    "joi": "13.7.0",
+    "joi": "14.3.1",
     "llog": "0.2.0",
     "pino": "4.17.6",
     "servicebus-bus-common": "1.2.4",
