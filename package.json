@@ -23,7 +23,7 @@
     "express-api-common": "4.1.4",
     "joi": "13.7.0",
     "llog": "0.2.0",
-    "pino": "4.17.6",
+    "pino": "6.2.1",
     "servicebus-bus-common": "1.2.4",
     "servicebus-register-handlers": "0.2.2",
     "sourced": "0.1.5",
