@@ -74,7 +74,7 @@ describe('api/addTodoItem', () => {
 
       let fn = onMessageSent(newRes)
       fn()
-      expect(newRes.json).toBeCalledWith({'result': 'success'})
+      expect(newRes.json).toBeCalledWith({ 'result': 'success' })
     })
     it('error', () => {
       let failRes = {
@@ -82,7 +82,7 @@ describe('api/addTodoItem', () => {
       }
       let failfn = onMessageSent(failRes)
       failfn('err')
-      expect(failRes.json).toBeCalledWith({'result': 'failure'})
+      expect(failRes.json).toBeCalledWith({ 'result': 'failure' })
     })
   })
 })

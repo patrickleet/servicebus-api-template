@@ -1,11 +1,8 @@
-#!/bin/sh
-':' //# https://cloudnative.institute ; exec /usr/bin/env node --experimental-modules "$0" "$1"
-
 import log from 'llog'
 import errortrap from 'errortrap'
 import servicebus from 'servicebus-bus-common'
-import { config } from '../config.mjs'
 import api from 'express-api-common'
+import { config } from '../config.mjs'
 import addTodoItem from '../routes/addTodoItem.mjs'
 
 // 🔥 Welcome to my opinionated servicebus boilerplate! 🔥

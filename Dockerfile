@@ -1,6 +1,4 @@
-FROM node:10
-
-RUN npm i -g npm@6
+FROM node:14
 
 ADD . /src
 WORKDIR /src
@@ -16,4 +14,4 @@ RUN npm link
 
 HEALTHCHECK CMD healthcheck
 
-CMD node --experimental-modules ./bin/start.mjs
+CMD node ./bin/start.mjs

@@ -1,6 +1,6 @@
 import log from 'llog'
 import express from 'express'
-import { addTodoItem } from '../lib/api/addTodoItem'
+import { addTodoItem } from '../lib/api/addTodoItem.mjs'
 
 export const router = express.Router()
 
