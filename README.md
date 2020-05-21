@@ -1,3 +1,8 @@
+# REPO MOVED
+
+This repo is now maintained at [@servicebus/rabbitbus-api-template](https://github.com/servicebus/rabbitbus-api-template)
+
+
 # api-template
 
 This is an example of a command API service.
